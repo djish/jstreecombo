@@ -5,23 +5,24 @@ Usage
 
 Using HTML
 ----
+<pre>
 <div id="combodiv">
-		 <ul>
-			<li id="xxx" data-value="1">Item 1
-				<ul>
-					<li id="xxx" data-value="1.1"> Item 1.1 </li>
-					<li id="xxx" data-value="1.2"> Item 1.2 </li>
-				</ul>
-			</li>
-			<li data-value="2"> Item 2
-				<ul>
-					<li id="xxx" data-value="2.1"> Item 2.1 </li>
-					<li id="xxx" data-value="2.2"> Item 2.2 </li>
-				</ul>
-			</li>
-		 </ul>
-	</div>
-	
+	 <ul>
+		<li id="xxx" data-value="1">Item 1
+			<ul>
+				<li id="xxx" data-value="1.1"> Item 1.1 </li>
+				<li id="xxx" data-value="1.2"> Item 1.2 </li>
+			</ul>
+		</li>
+		<li data-value="2"> Item 2
+			<ul>
+				<li id="xxx" data-value="2.1"> Item 2.1 </li>
+				<li id="xxx" data-value="2.2"> Item 2.2 </li>
+			</ul>
+		</li>
+	 </ul>
+</div>
+</pre>
 javascript
 -----------
   $(#combodiv").jstreecombo({[options]});
