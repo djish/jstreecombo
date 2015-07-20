@@ -47,13 +47,13 @@ $(#combodiv").jstreecombo({data : json, [other options]});
 
 Options: 
 ---------
-  {
-    onchange : function_name, // called when selected option value changed
-    onclick : function_name   // called when item clicked
-  }
+  {<br/>
+    onchange : function_name, // called when selected option value changed<br/>
+    onclick : function_name   // called when item clicked<br/>
+  }<br/>
   
 Methods:
 --------
-$(#combodiv").jstreecombo("value") // return value
-$(#combodiv").jstreecombo("obj")   // return object with value and display value
+$(#combodiv").jstreecombo("value") // return value<br/>
+$(#combodiv").jstreecombo("obj")   // return object with value and display value<br/>
 
