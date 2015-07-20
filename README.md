@@ -5,7 +5,7 @@ Usage
 
 Using HTML
 ----
-<pre>
+<![CDATA[
 <div id="combodiv">
 	 <ul>
 		<li id="xxx" data-value="1">Item 1
@@ -22,7 +22,7 @@ Using HTML
 		</li>
 	 </ul>
 </div>
-</pre>
+]]>
 javascript
 -----------
   $(#combodiv").jstreecombo({[options]});
