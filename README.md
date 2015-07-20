@@ -5,24 +5,24 @@ Usage
 
 Using HTML
 ----
-<![CDATA[
-<div id="combodiv">
-	 <ul>
-		<li id="xxx" data-value="1">Item 1
-			<ul>
-				<li id="xxx" data-value="1.1"> Item 1.1 </li>
-				<li id="xxx" data-value="1.2"> Item 1.2 </li>
-			</ul>
-		</li>
-		<li data-value="2"> Item 2
-			<ul>
-				<li id="xxx" data-value="2.1"> Item 2.1 </li>
-				<li id="xxx" data-value="2.2"> Item 2.2 </li>
-			</ul>
-		</li>
-	 </ul>
-</div>
-]]>
+
+&lt;div id="combodiv"&gt;
+	 &lt;ul&gt;
+		&lt;li id="xxx" data-value="1"&gt;Item 1
+			&lt;ul&gt;
+				&lt;li id="xxx" data-value="1.1"> Item 1.1 &lt;/li&gt;
+				&lt;li id="xxx" data-value="1.2"> Item 1.2 &lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+		&lt;li data-value="2"&gt; Item 2
+			&lt;ul&gt;
+				&lt;li id="xxx" data-value="2.1"> Item 2.1 &lt;/li&gt;
+				&lt;li id="xxx" data-value="2.2"> Item 2.2 &lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+
 javascript
 -----------
   $(#combodiv").jstreecombo({[options]});
