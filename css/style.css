@@ -1,0 +1,39 @@
+.js-tree-dropdown {
+	padding-left: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	border-radius: 5px;
+}	
+
+.js-tree-dropdown span {
+	margin-top: 5px;
+}
+.js-tree-popup {
+	border: 1px solid #95B8E7;
+	color: #000;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-radius: 5px;
+	
+}
+.js-tree-popup ul{
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+}
+
+.js-tree-popup li span{
+	width: 96%;
+	float: left;
+	padding: 5px;
+	padding-right: 0px;
+	
+}
+
+.js-tree-popup li span:hover {
+	background-color:#EAF2FF;
+}
+
+.js-tree-popup .js-clicked-item {
+	background-color: #FFE48D;
+}
